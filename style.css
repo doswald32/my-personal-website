@@ -6,10 +6,16 @@ body {
 }
 
 nav {
-    height: 50px;
+    position: fixed;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(207, 199, 199);
+    border-style: solid;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 .nav-left {
@@ -48,6 +54,7 @@ header {
     border-color: rgb(207, 199, 199);
     border-style: solid;
     padding-bottom: 10px;
+    margin-top: 50px;
 }
 
 #self-portrait {
@@ -110,12 +117,12 @@ a:active {
 
 #about {
     float: left;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 #project-scroll {
     float: right;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 
 footer {
