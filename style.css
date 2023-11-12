@@ -13,6 +13,7 @@ nav {
 
 .nav-left {
     float: left;
+    font-size: large;
     vertical-align: middle;
     margin: 15px;
 }
@@ -51,11 +52,14 @@ header {
 #self-portrait {
     max-width: 150px;
     max-height: 150px;
+    margin: auto;
     margin-top: 30px;
-    margin-bottom: 10px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
+    border-color:#b7b8b8;
+    background-color: white;
+    padding: 10px;
 }
 
 a:link {
@@ -76,8 +80,9 @@ a:active {
 }
 
 .title, .descriptors {
-    font-size: 175%;
+    font-size: 155%;
     color: rgb(180, 178, 178);
+    line-height: 150%;
 }
 
 .title {
@@ -90,4 +95,8 @@ a:active {
 
 .title:visited {
     color: blue;
+}
+
+main {
+    text-align: center;
 }
