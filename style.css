@@ -1,3 +1,93 @@
 body {
-    background: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+nav {
+    height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: black;
+    border-width: thick;
+    text-transform: uppercase;
+}
+
+.nav-left {
+    float: left;
+    vertical-align: middle;
+    margin: 15px;
+}
+.nav-left:hover {
+    font-weight: bolder;
+}
+
+.nav-right {
+    float: right;
+    vertical-align: middle;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+li:hover {
+    font-weight: bolder;
+}
+
+header {
+    display: block;
+    background-color: #f5f8fa;
+    text-align: center;
+    border-width: 1px 0px 1px 0px;
+    border-color: rgb(207, 199, 199);
+    border-style: solid;
+    padding-bottom: 25px;
+}
+
+#self-portrait {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    background-color: #b7b8b8;
+}
+
+.name {
+    font-size: 300%;
+}
+
+.title, .descriptors {
+    font-size: 175%;
+    color: rgb(180, 178, 178);
+}
+
+.title {
+    font-style: italic;
+}
+
+.title:link {
+    color: black;
+}
+
+.title:visited {
+    color: blue;
 }
