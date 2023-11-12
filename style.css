@@ -1,6 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    position: relative;
+    min-height: 100vh;
 }
 
 nav {
@@ -46,7 +48,7 @@ header {
     border-width: 1px 0px 1px 0px;
     border-color: rgb(207, 199, 199);
     border-style: solid;
-    padding-bottom: 25px;
+    padding-bottom: 2.5rem;
 }
 
 #self-portrait {
@@ -99,4 +101,39 @@ a:active {
 
 main {
     text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f8fa;
+    border-width: 1px 0 0 0;
+    border-color: rgb(207, 199, 199);
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-left {
+    font-size: small;
+    display: inline-block;
+    float: left;
+    color: rgb(180, 178, 178);
+}
+
+.footer-right {
+    float: right;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.fa-brands, .fa-solid {
+    object-fit: contain;
+    padding-right: .5rem;
+    color: rgb(180, 178, 178);
+}
+
+.fa-linkedin:hover {
+    visibility: visible;
 }
